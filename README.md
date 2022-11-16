@@ -2,7 +2,7 @@
 
 [![Swift Version][swift-image]][swift-url]
 
-This is a SwiftUI app that uses the CATAAS API to show cats
+This is a SwiftUI app that uses the [CATAAS API](https://cataas.com/) to show cats
 
 ## 📋 Features
 
@@ -27,6 +27,9 @@ This app is localized for English and Spanish. App strings are stored in `CatGal
 
 These variables are saved to `CatGallery/Generated/Strings+Generated.swift`. **Don't modify this file** as it is overwritten every time the app builds. A convenience struct called `Strings.swift` is provided to access localized strings. 
 
+## ℹ️ CATAAS Limitations 
+
+The CATAAS API provides an endpoint for pagination, but it doesn't work as expected. When setting `skip > 0` as a query parameter in `/api/cats`, the API returns more results than specified in the `limit` field. As a result, the second page of results is much larger than the first in this app.
 
 ## 🤝 Dependencies
 
