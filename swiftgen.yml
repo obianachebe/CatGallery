@@ -1,0 +1,19 @@
+input_dir: ./CatGallery/
+output_dir: ./CatGallery/Generated/
+
+xcassets:
+    inputs:
+        - Assets.xcassets
+    outputs:
+        templateName: swift5
+        output: XCAssets+Generated.swift
+
+strings:
+    inputs: ./Strings/en.lproj
+    filter: .+\.strings$
+    outputs:
+        templateName: structured-swift5
+        params:
+            publicAccess: true
+            enumName: Strings
+        output: Strings+Generated.swift

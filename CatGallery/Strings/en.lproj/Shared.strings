@@ -1,0 +1,11 @@
+/*
+  Shared.strings
+  CatGallery
+
+  Created by Obiora Anachebe on 11/15/22.
+
+*/
+
+// MARK: Misc Strings
+error = "Error";
+ok = "OK";

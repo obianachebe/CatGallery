@@ -1,0 +1,16 @@
+/* 
+  CatFeed.strings
+  CatGallery
+
+  Created by Obiora Anachebe on 11/15/22.
+  
+*/
+
+// MARK: Error Messages
+error_message_error_getting_cats = "There was a problem getting cats. Please try again.";
+
+// MARK: Error Titles
+error_title_error_getting_cats = "Error Getting Cats";
+
+// MARK: Navigation Titles
+nav_title_cat_feed = "Cat Feed";
